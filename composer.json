@@ -1,0 +1,21 @@
+{
+    "name": "vasya/imagemin",
+    "description": "imgMin",
+    "type": "project",
+    "authors": [
+        {
+            "name": "vano",
+            "email": "vano@vano.re"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "minimum-stability": "beta",
+    "require": {
+        "intervention/image": "^2.5",
+        "jsnlib/del": "^1.1"
+    }
+}
